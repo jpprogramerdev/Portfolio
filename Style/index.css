@@ -1,0 +1,96 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');/*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');/*font-family: 'Mulish', sans-serif;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+}
+
+.container-info,.container-curriculo{
+    margin: 2vh;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 57vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 0px 8px #2992fb96;
+    background-color: #181717;
+}
+
+.container-info img.imgProfile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.container-info p.infoProfile,.container-curriculo p.infoProfile{
+    padding-top: 25px;
+    color: #2991fb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.container-info p.infoProfile span.infoProfSpan,.container-curriculo p.infoProfile span.infoProfSpan{
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+}
+
+span.dateCertificado{
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    color: #b6b6b6;
+}
+
+span.infoCertificado{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+}
+
+span.infoCertificado a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+}
+span.infoCertificado a:hover{
+    text-decoration: none;
+    color: #c6e3ff;
+    transition: .2s;
+
+}
+
+.container-certificado{
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+a.linkCertificados{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+    color: #2991fb;
+    transition: .2s;
+}
+
+a.linkCertificados:hover{
+    filter: brightness(0.8);
+    transition: .2s;
+}

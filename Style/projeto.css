@@ -1,0 +1,132 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');/*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');/*font-family: 'Mulish', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+}
+
+a.linkGit {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    transition: text-shadow 0.5s ease-in-out;
+    text-decoration: none;
+}
+  
+a.linkGit:hover {
+    animation: blink 3s infinite;
+}
+  
+.category{
+    margin: 40px;
+    text-align: center;
+    padding: 25px;
+    max-width: 800px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 0px 8px #2992fb96;
+}
+
+p.titleCategory{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    text-shadow:1px 5px 25px #2991fb;
+}
+
+.groupProj{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+p.titleProj{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+}
+
+.project{
+    width: 150px;
+}
+
+.project:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.imgProj{
+    min-width: 140px;
+    border: 1px solid rgb(59, 111, 255);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.imgProj a img {
+    text-decoration: none;
+    max-width: 100%;
+    height: 120px; /* Defina a altura desejada para as imagens */
+    transition: .3s;
+}
+
+@keyframes blink {
+    0% {
+      text-shadow: 1px 5px 10px #2992fb00;
+    }
+
+    10% {
+        text-shadow: 1px 5px 10px #2991fb20;
+      }
+
+    20%{
+        text-shadow: 1px 5px 10px #2991fb40;
+    }
+    
+    30%{
+        text-shadow: 1px 5px 10px #2991fb60;
+    }
+
+    40%{
+        text-shadow: 1px 5px 10px #2991fb80;
+    }
+
+    50% {
+      text-shadow: 1px 5px 10px #2991fb;
+    }
+
+    60% {
+        text-shadow: 1px 5px 10px #2991fb80;
+    }
+    
+    70%{
+        text-shadow: 1px 5px 10px #2991fb60;
+    }
+
+    80%{
+        text-shadow: 1px 5px 10px #2991fb40;
+    }
+
+    90%{
+        text-shadow: 1px 5px 10px #2991fb20;
+    }
+
+    100% {
+      text-shadow: 1px 5px 10px #2991fb00;
+    }
+}
