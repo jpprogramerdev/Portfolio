@@ -81,7 +81,7 @@ p.titleProj{
 .imgProj a img {
     text-decoration: none;
     max-width: 100%;
-    height: 120px; /* Defina a altura desejada para as imagens */
+    height: 120px;
     transition: .3s;
 }
 
@@ -128,5 +128,57 @@ p.titleProj{
 
     100% {
       text-shadow: 1px 5px 10px #2991fb00;
+    }
+}
+
+@media(max-width: 740px){
+    .groupProj{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+@media(max-width:570px){
+    .category{
+        padding: 15px;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .groupProj{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:10px; 
+    }
+
+    .imgProj{
+        min-width: 120px;
+        padding: 5px;
+    }
+
+    .imgProj a img {
+        max-width: 100%;
+        height: 100px;
+    }
+}
+
+@media(max-width:530px){
+    .category{
+        padding: 12px;
+        max-width: 450px;
+        height: auto;
+    }
+
+    .groupProj{
+        grid-template-columns: 1fr 1fr;
+        gap:8px; 
+    }
+
+    .imgProj{
+        min-width: 100px;
+        padding: 5px;
+    }
+
+    .imgProj a img {
+        max-width: 100%;
+        height: 60px;
     }
 }

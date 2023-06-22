@@ -142,14 +142,14 @@ a.linkCertificados:hover{
     }
 }
 
-@media (max-width: 480px){
-    .container-info,.container-curriculo{
-        width: 42vh;
-    }
-}
-
 @media (max-width: 550px){
     .container-info,.container-curriculo{
         width: 50vh;
+    }
+}
+
+@media (max-width: 480px){
+    .container-info,.container-curriculo{
+        width: 42vh;
     }
 }
