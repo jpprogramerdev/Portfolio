@@ -46,9 +46,67 @@ footer{
     font-family: 'Kanit', sans-serif;
     border-bottom: 1.5px solid transparent;
     transition: .3s;
+    font-size: 1.1rem;
+
 }
 
 .header .groupBtn a:hover{
     border-bottom: 1.5px solid white;
     transition: .3s;
+}
+
+@media(max-width:380px){
+    .header img{
+        width: 8vh;
+    }
+
+    .header .groupBtn{
+        gap: 1vh;
+    }
+
+    .header .groupBtn a{
+        font-size: .5rem;
+    }
+}
+
+@media (max-width:430px){
+    .header img{
+        width: 10vh;
+    }
+
+    .header .groupBtn{
+        gap: 2vh;
+    }
+
+    .header .groupBtn a{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 480px){
+    .header img{
+        width: 10vh;
+    }
+
+    .header .groupBtn{
+        gap: 3vh;
+    }
+
+    .header .groupBtn a{
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 530px){
+    .header img{
+        width: 12vh;
+    }
+
+    .header .groupBtn{
+        gap: 5vh;
+    }
+
+    .header .groupBtn a{
+        font-size: 1rem;
+    }
 }

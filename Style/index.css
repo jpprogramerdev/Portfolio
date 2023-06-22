@@ -94,3 +94,62 @@ a.linkCertificados:hover{
     filter: brightness(0.8);
     transition: .2s;
 }
+
+
+@media(max-width:380px){
+    .container-info,.container-curriculo{
+        width: 3vh;
+    }
+
+    .container-info img.imgProfile{
+        width: 120px;
+        height: 120px;
+    }
+
+    .container-info p.infoProfile,.container-curriculo p.infoProfile{
+        font-size: .9rem;
+    }
+
+    .container-info p.infoProfile span.infoProfSpan,.container-curriculo p.infoProfile span.infoProfSpan{
+        font-size: .2rem;
+    }
+
+    span.infoCertificado, span.dateCertificado{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width:430px){
+    .container-info,.container-curriculo{
+        width: 20vh;
+    }
+
+    .container-info img.imgProfile{
+        width: 120px;
+        height: 120px;
+    }
+
+    .container-info p.infoProfile,.container-curriculo p.infoProfile{
+        font-size: 1rem;
+    }
+
+    .container-info p.infoProfile span.infoProfSpan,.container-curriculo p.infoProfile span.infoProfSpan{
+        font-size: .8rem;
+    }
+
+    span.infoCertificado, span.dateCertificado{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 480px){
+    .container-info,.container-curriculo{
+        width: 42vh;
+    }
+}
+
+@media (max-width: 550px){
+    .container-info,.container-curriculo{
+        width: 50vh;
+    }
+}
